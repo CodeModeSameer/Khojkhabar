@@ -22,7 +22,7 @@ export class News extends Component {
  async componentDidMount(){
     let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=855c9fcbc1ec41b2bb8599689368fe1c&page=1&pagesize=${this.props.pagesize}`
     this.setState({loading:true})
-    let data = await fetch(url);
+    let data = await fetch(url,{mode: 'cors'});
     let parsedData = await data.json()
     console.log(parsedData);
     this.setState({articles:parsedData.articles, 
