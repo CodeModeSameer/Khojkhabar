@@ -1,0 +1,80 @@
+{
+    "status": "ok",
+    "totalResults": 4,
+    "articles": [
+        {
+            "source": {
+                "id": "four-four-two",
+                "name": "FourFourTwo"
+            },
+            "author": "PA Staff",
+            "title": "Richarlison: Champions League debut with Tottenham could reduce me to tears",
+            "description": "New Tottenham signing Richarlison believes he could be reduced to tears when his opportunity to play Champions League football comes.",
+            "url": "https://www.fourfourtwo.com/news/richarlison-champions-league-debut-with-tottenham-could-reduce-me-to-tears-1657366187000",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/sLhUrcgCmjXKR9hGZV8qtD-1200-80.jpg",
+            "publishedAt": "2022-07-09T11:29:47Z",
+            "content": "New Tottenham signing Richarlison believes he could be reduced to tears when his opportunity to play Champions League football comes.\r\nThe 25-year-old said the chance to play in Europe’s premier club… [+1974 chars]"
+        },
+        {
+            "source": {
+                "id": "four-four-two",
+                "name": "FourFourTwo"
+            },
+            "author": "PA Staff",
+            "title": "EFL says no paperwork received in relation to proposed Birmingham takeover",
+            "description": "Birmingham’s proposed takeover appears no nearer to completion after the English Football League confirmed they have not received any paperwork from the club.",
+            "url": "https://www.fourfourtwo.com/news/efl-says-no-paperwork-received-in-relation-to-proposed-birmingham-takeover-1657365876000",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/NAkgaZuNEhzf4rRc99CL8g-1200-80.jpg",
+            "publishedAt": "2022-07-09T11:24:36Z",
+            "content": "Birmingham’s proposed takeover appears no nearer to completion after the English Football League confirmed they have not received any paperwork from the club.\r\nFormer Watford owner Laurence Bassini c… [+1384 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Lauren Forristal",
+            "title": "Streaming service NFL+ confirmed, NFL will choose a streamer for its Sunday Ticket this fall",
+            "description": "NFL fans – especially cord-cutters — will be happy to know that The National Football League has confirmed it is launching its own direct-to-consumer (DTC) streaming service NFL+ and that its new Sunday Ticket partner will be a streaming service. The news was…",
+            "url": "https://techcrunch.com/2022/07/08/streaming-service-nfl-confirmed-nfl-will-choose-a-streamer-for-its-sunday-ticket-this-fall/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2022/07/Screen-Shot-2022-07-08-at-2.01.09-PM.png?w=718",
+            "publishedAt": "2022-07-08T18:27:47Z",
+            "content": "NFL fans especially cord-cutters — will be happy to know that The National Football League has confirmed it is launching its own direct-to-consumer (DTC) streaming service NFL+ and that its new Sunda… [+2163 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "Five famous people (and one cat) you didn't know have ESPNcricinfo profiles | ESPNcricinfo.com",
+            "description": "Why do a footballer, a Nobel laureate and a prime minister (no, not Imran Khan) find themselves in the ESPNcricinfo player database? | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/29102695/five-famous-people-one-cat-know-espncricinfo-profiles",
+            "urlToImage": "https://a.espncdn.com/i/cricket/cricinfo/1221668_1296x1296.gif",
+            "publishedAt": "2020-04-27T07:20:43Z",
+            "content": "Why do a cat, a footballer, a Nobel laureate and a prime minister find themselves in the ESPNcricinfo database? Here are six player profiles you wouldn't have expected we had.\r\nPeter the catThe only … [+5504 chars]"
+        }
+    ]
+}
+
+// handleprevclicked= async ()=>{
+//     console.log('dsdsds')
+//     let url = `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=855c9fcbc1ec41b2bb8599689368fe1c&page=${this.state.page + 1}`
+//     let data = await fetch(url);
+//     let parsedData = await data.json()
+//     console.log(parsedData);
+//     this.setState({
+//       page : this.state.page+1,
+//       articles:parsedData.articles
+//     })
+//   }
+//   handlenextclicked= async ()=>{
+//     let url = `https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=855c9fcbc1ec41b2bb8599689368fe1c&page=${this.state.page - 1}`
+//     let data = await fetch(url);
+//     let parsedData = await data.json()
+//     console.log(parsedData);
+//     this.setState({
+//       page : this.state.page-1,
+//       articles:parsedData.articles
+//     })
+//   }
